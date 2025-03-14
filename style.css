@@ -1026,6 +1026,7 @@ a {
 
 .section_1_div_for_arrow_adaptiv {
     display: none;
+    z-index: 9;
 }
 
 .section_1_2 {
@@ -1093,6 +1094,7 @@ a {
         position: absolute;
         justify-content: space-between;
         align-items: center;
+        z-index: 9;
     }
 
     #arrow_adaptiv {
