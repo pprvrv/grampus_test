@@ -270,6 +270,7 @@ header {
     height: 740px;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: absolute;
     z-index: 1;
     top: 0px;
