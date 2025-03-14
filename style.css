@@ -1114,6 +1114,7 @@ a {
     #container_1_2 {
         display: flex;
         position: relative;
+        z-index: 9;
         width: 1290px;
         margin-right: 110px;
         justify-content: flex-end;
