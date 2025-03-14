@@ -105,6 +105,7 @@ body {
     border: 1px solid #8c6659;
 }
 
+
 #header_container {
     display: flex;
     flex-direction: row;
@@ -421,7 +422,7 @@ header {
     justify-content: space-between;
 }
 
-.section_2_container_house_gridinfo_box:before, 
+.section_2_container_house_gridinfo_box:before,
 .section_2_container_house_gridinfo_box:after {
     content: "";
     z-index: 1;
@@ -433,21 +434,25 @@ header {
     transform: translate(-50%, -50%);
     transform-origin: 50% 50%;
 }
+
 .section_2_container_house_gridinfo_box:before {
     width: calc(100% + 4px);
     height: 80%;
     transition: height 0.6s;
 }
+
 .section_2_container_house_gridinfo_box:after {
     height: calc(100% + 4px);
     width: 90%;
     transition: width 0.6s;
 }
-.section_2_container_house_gridinfo_box:hover:before, 
+
+.section_2_container_house_gridinfo_box:hover:before,
 .section_2_container_house_gridinfo_box:focus:before {
     height: 50%;
 }
-.section_2_container_house_gridinfo_box:hover:after, 
+
+.section_2_container_house_gridinfo_box:hover:after,
 .section_2_container_house_gridinfo_box:focus:after {
     width: 75%;
 }
@@ -937,7 +942,7 @@ a {
 
 }
 
-.section_4_grid_box:before, 
+.section_4_grid_box:before,
 .section_4_grid_box:after {
     content: "";
     z-index: 1;
@@ -949,21 +954,25 @@ a {
     transform: translate(-50%, -50%);
     transform-origin: 50% 50%;
 }
+
 .section_4_grid_box:before {
     width: calc(100% + 4px);
     height: 80%;
     transition: height 0.6s;
 }
+
 .section_4_grid_box:after {
     height: calc(100% + 4px);
     width: 90%;
     transition: width 0.6s;
 }
-.section_4_grid_box:hover:before, 
+
+.section_4_grid_box:hover:before,
 .section_4_grid_box:focus:before {
     height: 50%;
 }
-.section_4_grid_box:hover:after, 
+
+.section_4_grid_box:hover:after,
 .section_4_grid_box:focus:after {
     width: 75%;
 }
