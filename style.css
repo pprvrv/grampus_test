@@ -1000,6 +1000,7 @@ a {
 .photo_grid_box {
     width: 60px;
     height: 60px;
+    z-index: 2;
 }
 
 .img_grid_box {
