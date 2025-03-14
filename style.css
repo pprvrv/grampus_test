@@ -1017,6 +1017,7 @@ a {
 }
 
 #grid_box_text {
+    z-index: 9;
     width: 100%;
     text-align: left;
 }
